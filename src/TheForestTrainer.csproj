@@ -42,6 +42,14 @@
       <HintPath>$(TheForestPath)\TheForest_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>false</Private>
     </Reference>
+    <Reference Include="bolt">
+      <HintPath>$(TheForestPath)\TheForest_Data\Managed\bolt.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="PlayMaker">
+      <HintPath>$(TheForestPath)\TheForest_Data\Managed\PlayMaker.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
   </ItemGroup>
 
   <Target Name="DeployToGame" AfterTargets="Build" Condition="Exists('$(TheForestPath)\BepInEx\plugins\')">
