@@ -1,0 +1,12 @@
+bin/
+obj/
+build/
+*.user
+*.suo
+.vs/
+.idea/
+.vscode/
+
+NOTAS.md
+README.md
+research/
